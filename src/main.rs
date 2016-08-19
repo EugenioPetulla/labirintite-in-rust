@@ -136,8 +136,6 @@ fn main() {
     if height % 2 == 0 { height = height + 1; }
     height = height + 2;
 
-    //let width = 51;     // Maze width; must be odd.
-    //let height = 33;    // Maze height; must be odd.
     let maze = Maze::generate(width, height);
     maze.show();
 }
