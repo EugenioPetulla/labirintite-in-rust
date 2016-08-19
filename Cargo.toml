@@ -1,0 +1,7 @@
+[package]
+name = "maze_creator"
+version = "0.1.0"
+authors = ["Eugenio Petullà"]
+
+[dependencies]
+rand = "*"
